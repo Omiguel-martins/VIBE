@@ -1,0 +1,905 @@
+[
+    {
+        "nome": "YARA ROSE",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$160,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "YARA CANDY",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$140,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "YARA TOUS",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$130,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "YARA MOII",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$130,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "YARA ELIXIR",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$185,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Fakhar Rose",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$185,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Afeef Pavão",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$420,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Dalal",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$310,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Musamam White",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$240,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Queen of Arábia",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$365,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "sakeena",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$125,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Tharwah Gold",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$300,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "HAYA",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$160,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Atheeri",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$ 340,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "emaan",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$135,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Ajwad",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$105,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Al Nashama",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$155,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Emeer",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$265,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Rannen",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$170,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Habik",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$220,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Queen Of Roses",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$315,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Angham second song",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$190,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Angham",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$155,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Victoria",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$160,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Eclaire",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$205,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Layaan",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$235,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Teriaq",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$150,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Honor & Glory",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$130,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Nebras",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$200,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Amethyst Badee Al Oud",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$120,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Sublime",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$ 130,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Noble Blush",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$135,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Ameerat Al Arab Sugar Crown",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$160,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Petra",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$130,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Hayaati Florence",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$100,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Her Confession",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$200,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Hayaati Gold Elixir",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$90,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Mayar",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$135,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Lahdath",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$180,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Mayar Natural Intense",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$125,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Arabiyat Prestige Forbidden",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$315,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Mayar Cherry Intense",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$130,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "The Show Magnifique",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$315",
+        "especificacoes": null
+    },
+    {
+        "nome": "Durrat",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R100,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Watani",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$110,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Durrat love",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$190,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Watani Pink",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$195,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "shagaf al ward",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$110,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Sabah Al Ward",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$110,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Sabah Sugar",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$110,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Sabah Valentine",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$185,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Sabah Delilah",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$150,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Sabah Garden",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$190,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Amnia",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$110,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Duha",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$110,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Ameerati",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$95,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Ghala",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$95,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "TIARA",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$95,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Sevilla",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$110,0",
+        "especificacoes": null
+    },
+    {
+        "nome": "Tibyan",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$95,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Castilla",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$110,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "B.A.D FEMME",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$115,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Granada",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$110,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Infinity Gold",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$250,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Club de Nuit Untold",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$215,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Club de Nuit Woman",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$210,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Club De Nuit Maleka",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$215,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Odyssey Candee",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$135,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Club De Nuit Milestone",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$195,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Vanilla Voyage",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$315,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "MANAAL",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$195,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Ajmal Ehsaas",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$135,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Ameerat Al Arab Prive Rose",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$110,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Aurora Scents Cleópatra",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$220,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Ameerat Al Arab",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$110,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Queen Check Mate",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$190,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Fayora OshinO",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$225,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Irida Extrait",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$250,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Souvenir Desert Rose",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$ 195,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Hawas Diva",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$279,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Souvenir Floral Bouquet",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$210,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "The Kingdom Woman",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$140,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Veneno Bianco",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$240,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Nefertiti",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$140,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Vulcan Baie Extrait",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$200,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Merneith",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$140,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Vulcan Feu French",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$270,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Hamidi Cleopatra",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$145,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Arabia Haya Crush",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$120,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Shams Al Emarat Khususi",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$130,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Arabia Haya",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$130,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Verato",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$130,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Arabia Madame",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$120,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Perla Passion",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$110,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Amber Rouge",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$370,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Armaf Island Bliss",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$195,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Royal Amber",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$355,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Yum Yum Armaf",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$220,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Azure Fantasy",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$395,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Marshmallow Blush",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$195,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Mawwal - Basir",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$210,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Fantasy",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$180,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Basir Dreams",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$215,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Midnight Fantasy",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$180,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Alora L'Affair Extrait",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$255,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Royal Marina Red Diamond",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$200,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Marina de Bourbon",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$195,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Gabriela Sabatini",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$100,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Princesse Marina de Bourbon",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$180,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Como Moiselle",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$155,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Pink Eclipse",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$230,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "La Vivacité",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$120,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Summer Forever",
+        "descricao": null,
+        "categoria": null,
+        "preco": "$145,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Léonie Intense",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$205,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Rose Seduction VIP",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$145,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Leonie",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$155,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Athena",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$170,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Glacier Bella",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$100,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "So Candid",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$115,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Delilah Blanc",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$17,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Rayhaan Divine",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$255,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Delilah rose",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$ 165,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "RAYHAAN KISS",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$215,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "MAKTUB LA VIE",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$235,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Elixir Chic 'n Glam",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$145,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Bidaya AYAT",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$235,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Historic Doria",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$220,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "MAKTUB GOLD",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$235,00",
+        "especificacoes": null
+    },
+    {
+        "nome": "Rosé MAISON ASRAR",
+        "descricao": null,
+        "categoria": null,
+        "preco": "R$290,00",
+        "especificacoes": null
+    }
+]

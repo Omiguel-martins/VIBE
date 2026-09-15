@@ -1,0 +1,629 @@
+{
+  "executado_em": "2026-09-12T04:18:25.778Z",
+  "total": 156,
+  "encontrados": 154,
+  "nao_encontrados": 2,
+  "dry_run": false,
+  "sem_imagem": [
+    "Maahir Black",
+    "Fada Mawwal"
+  ],
+  "com_imagem": [
+    {
+      "name": "Musamam Black Intense",
+      "url": "https://fimgs.net/mdimg/secundar/o.142594.jpg"
+    },
+    {
+      "name": "Ishq Al Shuyukh Silver",
+      "url": "https://images.tcdn.com.br/img/img_prod/1361374/ishq_al_shuyukh_silver_lattafa_perfume_arabe_masculino_fresco_amadeirado_e_elegante_1737_2_9f477cb7cb5cd2d6ab48dd37cb9ba875.png"
+    },
+    {
+      "name": "NAWAL BRONZITE",
+      "url": "https://vivifraganceswhosale.com/cdn/shop/files/9634E290-6D1F-420F-AF33-6A7F7D007B12.png?v=1756161981&width=800"
+    },
+    {
+      "name": "Attar Al Wesal Gold",
+      "url": "https://www.giraofertas.com.br/wp-content/uploads/2026/05/Al-Wataniah-Attar-al-Wesal-Gold-EDP-100ml.png"
+    },
+    {
+      "name": "Watani Noir",
+      "url": "https://www.cnobre-store.com/cdn/shop/files/al_wataniah_al_watani_noir_100-1-800x800.webp?v=1759617003&width=1946"
+    },
+    {
+      "name": "NO 2 Men",
+      "url": "https://cdn.sistemawbuy.com.br/arquivos/2991e0dc262d35f367db71db5650f367/produtos/6953da9e4b407/15402815169-perfume-arabe-maison-alhambra-no-2-men-masculino-edp-100ml-2-6953daabeb0c0.jpg"
+    },
+    {
+      "name": "Vibe - Invencível",
+      "url": "https://vibefragrances.com/cdn/shop/files/invincible_100ml_800x.png?v=1699304407"
+    },
+    {
+      "name": "So Candid",
+      "url": "https://images.tcdn.com.br/img/img_prod/1200261/so_candid_maison_alhambra_eau_de_parfum_feminino_85ml_593_3_5533f479d48e8024132a193fc96a004e.jpg"
+    },
+    {
+      "name": "MAITRE DE BLUE",
+      "url": "https://paguemenos.vtexassets.com/arquivos/ids/920245/Maitre-de-Blue-Maison-Alhambra-Eau-de-Parfum---Perfume-Masculino-100ml.png?v=638596688104200000"
+    },
+    {
+      "name": "Galactic Men Intense",
+      "url": "https://cosmetic.cl/cdn/shop/files/Perfume-Maison-Alhambra-Galactic-Men-Intense-EDP-100-ML-Hombre.png?v=1743624412"
+    },
+    {
+      "name": "Salvo",
+      "url": "https://cdn.awsli.com.br/2500x2500/2758/2758187/produto/361332389/perfume_salvo_edp_30ml-szxtd7o909.png"
+    },
+    {
+      "name": "Salvo Elixir",
+      "url": "https://silkperfumes.cl/cdn/shop/products/dghgfyhdfyer.png?v=1708970744&width=1214"
+    },
+    {
+      "name": "Glacier Pour Homme",
+      "url": "https://cdn.sistemawbuy.com.br/arquivos/2991e0dc262d35f367db71db5650f367/produtos/68fbb34491a5a/15386846912-perfume-arabe-maison-alhambra-glacier-pour-homme-masculino-edp-100ml-2-68fbb37492475.jpg"
+    },
+    {
+      "name": "Club de Nuit Urban Elixir",
+      "url": "https://www.myperfumeshop.com.au/cdn/shop/products/armaf-club-de-nuit-urban-elixir-edp-perfume-cologne-574749.jpg?v=1694561292&width=1200"
+    },
+    {
+      "name": "Odyssey Mandarin Sky",
+      "url": "https://images.tcdn.com.br/img/img_prod/1458875/odyssey_mandarin_sky_1_20260326232643_b9997364d805.jpg"
+    },
+    {
+      "name": "Intrude",
+      "url": "https://down-br.img.susercontent.com/file/sg-11134201-7rdvd-mbnwgs0gmseu19"
+    },
+    {
+      "name": "Pink Eclipse Masc",
+      "url": "https://down-br.img.susercontent.com/file/sg-11134201-82622-mklbuyrqggznc5"
+    },
+    {
+      "name": "So Candid Masc",
+      "url": "https://down-br.img.susercontent.com/file/sg-11134201-824he-mekehp9unapvfc"
+    },
+    {
+      "name": "9 AM Dive",
+      "url": "https://www.perfumenz.co.nz/cdn/shop/files/afnan-9am-dive_1554x1554.png?v=1698444644"
+    },
+    {
+      "name": "Desirable Addiction",
+      "url": "https://www.perfumenz.co.nz/cdn/shop/files/alhambra-desirable-addiction---2_d247e687-0f91-488f-9354-6c64a8cd7de0_1200x1200.png?v=1776393547"
+    },
+    {
+      "name": "Yara Tous Masc",
+      "url": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-ly5hb6ngtn93b6"
+    },
+    {
+      "name": "Fakhar ROSE Masc",
+      "url": "https://down-br.img.susercontent.com/file/sg-11134201-822yi-mi3srosx2w3kb1"
+    },
+    {
+      "name": "Angham Masc",
+      "url": "https://m.media-amazon.com/images/I/81U-LCk-VnL._SL1500_.jpg"
+    },
+    {
+      "name": "Eclaire Masc",
+      "url": "https://www.duneperfumes.com.au/cdn/shop/files/208.png?v=1716981982&width=1445"
+    },
+    {
+      "name": "Love Spell",
+      "url": "https://i5.walmartimages.com.mx/mg/gm/3pp/asr/586a7e00-780d-4540-b920-03c9960db52d.8bb79e245d1c103746dea40cf51f2c00.jpeg?odnHeight=2000&odnWidth=2000&odnBg=ffffff"
+    },
+    {
+      "name": "Pear Glace",
+      "url": "https://m.media-amazon.com/images/I/71-TWrJK9ZL._AC_SL1500_.jpg"
+    },
+    {
+      "name": "Strawberry Champagne",
+      "url": "https://http2.mlstatic.com/D_NQ_NP_991200-MLB72953397181_112023-O.webp"
+    },
+    {
+      "name": "Pear Glace COM BRILHO",
+      "url": "https://down-br.img.susercontent.com/file/141c93593c5d438576b0438767cab799"
+    },
+    {
+      "name": "Brilho Pure Seduction",
+      "url": "https://http2.mlstatic.com/D_NQ_NP_667010-MLB80748892083_112024-O.webp"
+    },
+    {
+      "name": "Coconut Passion Brilho",
+      "url": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-mada6rgeyt8vca"
+    },
+    {
+      "name": "Strawberry Champagne Brilho",
+      "url": "https://http2.mlstatic.com/D_NQ_NP_991200-MLB72953397181_112023-O.webp"
+    },
+    {
+      "name": "Bare Vanilla Brilho",
+      "url": "https://cdn.sistemawbuy.com.br/arquivos/4c12c1251b17bfc49413d191347b895f/produtos/6931c00912a1f/9-6931c0470b9dd.jpg"
+    },
+    {
+      "name": "Bare Vanilla Brulee",
+      "url": "https://fimgs.net/mdimg/perfume-thumbs/375x500.111842.2x.jpg"
+    },
+    {
+      "name": "Bare Vanilla Joy Brilho",
+      "url": "https://www.bellaroma.mx/wp-content/uploads/2026/02/victorias-secret-bare-vanilla-joy-shimmer-body-mist-mujer-e1770137160374.jpeg"
+    },
+    {
+      "name": "Velvet Petals Shimmer Brilho",
+      "url": "https://photos.enjoei.com.br/victorias-secret-velvet-petals-shimmer-perfume-corporal-com-brilho-body-splash-com-brilho-250ml/1200xN/czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy8yNjY2NjI0NC9jMzYxMzE0NGU1ODdiMTVmMTA4MzIxODI2ZjJlMDI0Ni5qcGc"
+    },
+    {
+      "name": "Cherry Bonbon Bliss",
+      "url": "https://media.parfumo.com/perfumes/44/44d36d_cherry-bonbon-bliss-victoria-s-secret_1200.jpg?width=720&aspect_ratio=1:1"
+    },
+    {
+      "name": "Pure Seduction Brulee",
+      "url": "https://fimgs.net/mdimg/perfume/o.111846.jpg"
+    },
+    {
+      "name": "Love Spell Brulee",
+      "url": "https://fimgs.net/mdimg/perfume-thumbs/375x500.111844.2x.jpg"
+    },
+    {
+      "name": "Love Spell Joy Brilho",
+      "url": "https://content1.rozetka.com.ua/goods/images/big/634476971.jpg"
+    },
+    {
+      "name": "Love Spell Grande",
+      "url": "https://i1.perfumesclub.com/mklgrande/95228.jpg"
+    },
+    {
+      "name": "Coconut Passion Shimmer Brilho",
+      "url": "https://perfumescardales.com.ar/wp-content/uploads/2022/06/coconut-Passion.jpg"
+    },
+    {
+      "name": "Temptation",
+      "url": "https://http2.mlstatic.com/D_NQ_NP_607345-MPE90852667320_082025-O.webp"
+    },
+    {
+      "name": "Musamam Mini",
+      "url": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-mds351819s55e9"
+    },
+    {
+      "name": "FAKHAR ROSE Mini",
+      "url": "https://images.tcdn.com.br/img/img_prod/1438726/miniatura_arabic_collection_a006_fakh_rosa_25ml_2_20251123094600_fd1a487b9b8c.jpg"
+    },
+    {
+      "name": "Khamrah Mini",
+      "url": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m9xf396pjvi135"
+    },
+    {
+      "name": "Khamrah Qahwa Mini",
+      "url": "http://dcdn-us.mitiendanube.com/stores/001/608/513/products/img_6959-825d71c47a4d601eb017621027799253-640-0.jpg"
+    },
+    {
+      "name": "Jean Lowe Immortal",
+      "url": "https://i.etsystatic.com/38573668/r/il/5246ad/4914326531/il_fullxfull.4914326531_7knl.jpg"
+    },
+    {
+      "name": "Philos Pura",
+      "url": "https://i5.walmartimages.cl/asr/387cbdb0-5d46-4fc9-b530-dc0726424b7e.19356b5da69872fc608fbf1cc549dc98.jpeg?odnHeight=2000&odnWidth=2000&odnBg=ffffff"
+    },
+    {
+      "name": "Athena Feminino",
+      "url": "https://acdn-us.mitiendanube.com/stores/001/073/145/products/athena_goddess-7b030950f514ad199c17322516958857-1024-1024.png"
+    },
+    {
+      "name": "Asad",
+      "url": "https://sistema.sistemawbuy.com.br/arquivos/a48e76d3b4ff8b6e919e194fd7dfcfed/produtos/66899802f3230/lattafa-asad-edp-100ml-2-6689980505ca2.jpg"
+    },
+    {
+      "name": "Asad Zanzibar",
+      "url": "https://cdn-shopkit.com/usercontent/sparklingbeauty/media/images/34535b1-001133-inshot_20240403_000227972.jpg"
+    },
+    {
+      "name": "Khanjar Niche Emarati",
+      "url": "https://down-br.img.susercontent.com/file/br-11134207-81z1k-meemxvuet81vd9"
+    },
+    {
+      "name": "Musamam",
+      "url": "https://down-br.img.susercontent.com/file/br-11134207-81z1k-mf8r5imittdx02"
+    },
+    {
+      "name": "Ishq Al Shuyukh Gold",
+      "url": "https://perfumesmb.com.ec/wp-content/uploads/2023/07/ishq-al-shuyukh-g.jpg"
+    },
+    {
+      "name": "The Kingdom Men",
+      "url": "http://www.intenseoud.com/cdn/shop/files/1_8bb396bb-671e-46ab-83fb-5802ba56bd84.jpg?v=1726331588"
+    },
+    {
+      "name": "Attar Al Wesal",
+      "url": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-ls0e6289q4v8da"
+    },
+    {
+      "name": "Oud Mystery Intense",
+      "url": "https://silkperfumes.cl/cdn/shop/files/al-wataniah-oud-mystery-intense-edp-100-ml-silk-perfumes.png?v=1762198414&width=1214"
+    },
+    {
+      "name": "Bareeq Al Dhahab",
+      "url": "https://down-br.img.susercontent.com/file/sg-11134201-825ah-mewdnndxm51f25"
+    },
+    {
+      "name": "Sultan Al Lail",
+      "url": "https://down-br.img.susercontent.com/file/br-11134207-81ztc-mk0zej6l375t5f"
+    },
+    {
+      "name": "Kenz Al Malik",
+      "url": "https://down-br.img.susercontent.com/file/br-11134201-7r98o-lnj1b4uh9zgs26"
+    },
+    {
+      "name": "Haramain Amber Oud Aqua Dubai",
+      "url": "https://www.jogaperfumes.com/cdn/shop/files/ChatGPT_Image_5_mar_2026_07_04_23_p.m..png?v=1772755818&width=1024"
+    },
+    {
+      "name": "Yeah Men",
+      "url": "http://www.intenseoud.com/cdn/shop/files/1_a4d141c8-e3de-4f16-b04e-2318bb0302b2.jpg?v=1736455922"
+    },
+    {
+      "name": "Fakhar Gold",
+      "url": "https://cdn.awsli.com.br/600x700/25/25674/produto/12797384/20241017_112234-926bb167fd71ddc81417358446449011-1024-1024-0uyxjb3yfh.webp"
+    },
+    {
+      "name": "His Confession",
+      "url": "https://acdn-us.mitiendanube.com/stores/001/073/145/products/24-9d01d315710afe18ab17464881569574-1024-1024.png"
+    },
+    {
+      "name": "Safeer",
+      "url": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lxn8ypxx4b7j5f"
+    },
+    {
+      "name": "Mishlah",
+      "url": "https://fragra.de/cdn/shop/files/Lattafa_Mishlah_Eau_de_Parfum_100_ml.webp?v=1770041200&width=1946"
+    },
+    {
+      "name": "Hayaati Al Maleky",
+      "url": "http://imperian.co.uk/cdn/shop/files/Hayaati-Al-Maleky-Perfume-100ml-EDP-Lattafa-123466581.jpg?v=1717443081"
+    },
+    {
+      "name": "Maahir Honor",
+      "url": "https://olvio.co.uk/cdn/shop/files/Imperian.co.uk_019bfe2d-191f-4a81-b1c1-9460f84ff422_1200x1200.png?v=1764690462"
+    },
+    {
+      "name": "Opulent Dubai",
+      "url": "https://emiratesoud.co.uk/cdn/shop/files/Opulent-Dubai-Perfume-100ml-EDP-Lattafa-169108781.jpg?v=1748915905&width=1426"
+    },
+    {
+      "name": "Turathi Blue",
+      "url": "https://m.media-amazon.com/images/I/61y0IxOvbPL._AC_SX679_.jpg"
+    },
+    {
+      "name": "Oud Oud for Glory",
+      "url": "http://faroma.co.uk/cdn/shop/files/Badee-Al-Oud-Oud-for-Glory-Perfume-EDP-100ml-Lattafa-153338948.jpg?v=1756845210"
+    },
+    {
+      "name": "Shaheen Gold",
+      "url": "https://d1a9qnv764bsoo.cloudfront.net/stores/005/164/317/rte/Shaheen-Gold-by-Lattafa-Pride_1800x.webp"
+    },
+    {
+      "name": "Alpine Homme Sport",
+      "url": "https://acdn.mitiendanube.com/stores/001/659/388/products/alpine-homme-sport-021-f429193db82ecdb21a16745800595656-1024-1024.jpg"
+    },
+    {
+      "name": "Galactic Men Elixir",
+      "url": "https://silkperfumes.cl/cdn/shop/files/maison-alhambra-galactic-men-elixir-edp-100ml-Silk-Perfumes.png?v=1747423045&width=1214"
+    },
+    {
+      "name": "Glacier Bold",
+      "url": "https://down-br.img.susercontent.com/file/sg-11134201-7rdx7-mdc4jbawe58g66"
+    },
+    {
+      "name": "Salvo Intense",
+      "url": "https://acdn-us.mitiendanube.com/stores/001/073/145/products/salvo-intense-707402a0bf9d59d65217296022140137-1024-1024.png"
+    },
+    {
+      "name": "Glacier Ultra",
+      "url": "https://www.perfumenz.co.nz/cdn/shop/files/alhambra-glacier-ultra_812x812.png?v=1724807918"
+    },
+    {
+      "name": "Sceptre Bronzite",
+      "url": "https://cdnx.jumpseller.com/nym-perfumeria/image/43895827/resize/1200/1200?1703696053"
+    },
+    {
+      "name": "Club de Nuit Intense Man",
+      "url": "https://m.media-amazon.com/images/I/615Tx47eDAL.jpg"
+    },
+    {
+      "name": "CLUB DE NUIT ICONIC",
+      "url": "https://cdn.awsli.com.br/2500x2500/2758/2758187/produto/398764696/d-9-73l5dqya1i.png"
+    },
+    {
+      "name": "Club de Nuit Sillage",
+      "url": "https://perfumesmundiales.com/wp-content/uploads/2022/02/Perfume-Club-de-Nuit-Sillage.png"
+    },
+    {
+      "name": "Club de Nuit Precieux",
+      "url": "https://cachi.uy/wp-content/uploads/Perfume_Arabe_Armaf_Club_de_Nuit_Precieux_Extrait_Parfum55ml_5.jpg"
+    },
+    {
+      "name": "9PM Afnan",
+      "url": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m4r9t9s3n0olad"
+    },
+    {
+      "name": "Spectre Ghost",
+      "url": "https://m.media-amazon.com/images/I/71DwUDuxNtL._AC_SL1500_.jpg"
+    },
+    {
+      "name": "Ameer Al Arab Black",
+      "url": "https://down-br.img.susercontent.com/file/sg-11134201-7rfgi-m94nvfxyw0kne2"
+    },
+    {
+      "name": "Liquid Brun",
+      "url": "https://www.perfumenz.co.nz/cdn/shop/files/fragrance-world-liquid-brun_1200x1200_crop_center.png?v=1736885719"
+    },
+    {
+      "name": "Obsidian Rayhaan",
+      "url": "https://zaoud.it/cdn/shop/files/rayhaan-obsidian-eau-de-parfum.jpg?v=1775046385&width=1445"
+    },
+    {
+      "name": "Lapidus",
+      "url": "https://cdn.onbuy.com/product/a02cc065f5444ef1ad1586b5135fbe9b/990-990/pkhsd6v.jpg"
+    },
+    {
+      "name": "Animale",
+      "url": "https://down-br.img.susercontent.com/file/br-11134207-81z1k-mgdrt3sl3f2d84"
+    },
+    {
+      "name": "Silver Scent",
+      "url": "https://down-br.img.susercontent.com/file/br-11134201-23030-c07wm0atjmova0"
+    },
+    {
+      "name": "Silver Scent Intense",
+      "url": "https://down-br.img.susercontent.com/file/br-11134207-81z1k-mhw8olq1pvcxe2"
+    },
+    {
+      "name": "Legend Intense",
+      "url": "http://cdn.shopify.com/s/files/1/2164/4355/products/legend-intense_grande.png?v=1568749694"
+    },
+    {
+      "name": "Joop 200ml",
+      "url": "https://perfumaste.com/wp-content/uploads/2025/01/Perfume-Homme-De-Joop-Para-Hombre-200-ml-Frasco.jpg"
+    },
+    {
+      "name": "Hawas Kobra",
+      "url": "https://cdn.mart.ps/340312-thickbox_default/hawas-kobra-edp-by-rasasi-for-men-100ml.jpg"
+    },
+    {
+      "name": "Habibi Prince",
+      "url": "https://http2.mlstatic.com/D_NQ_NP_919319-MLB106931283811_022026-O.webp"
+    },
+    {
+      "name": "Bidaya Elliur",
+      "url": "https://down-br.img.susercontent.com/file/br-11134207-81zuj-mkswqzr424n70f"
+    },
+    {
+      "name": "Hawas Black",
+      "url": "https://cdn-shopkit.com/usercontent/ragazzi-profumo/media/images/44b846f-234842-rasasi-mens-hawas-black-edp-spray-33-oz-100ml-fragrances-614514331033_3.jpg"
+    },
+    {
+      "name": "Qaed Al Fursan Preto",
+      "url": "https://down-br.img.susercontent.com/file/sg-11134201-7rdw8-mdnkcmfyq6ve9c"
+    },
+    {
+      "name": "Qaed Al Fursan",
+      "url": "https://momperfume.in/cdn/shop/files/ALFURSAN.jpg?v=1693747535"
+    },
+    {
+      "name": "B.A.D Homme",
+      "url": "https://cosmetic.cl/cdn/shop/products/Maison-Alhambra-Bad-Homme-Edp-100-Ml-Hombre.png?v=1708091882"
+    },
+    {
+      "name": "Mindset",
+      "url": "https://down-br.img.susercontent.com/file/br-11134207-81z1k-me83tqcegd1e88"
+    },
+    {
+      "name": "Delilah",
+      "url": "https://down-br.img.susercontent.com/file/br-11134207-81z1k-mgceqrzmdfyd76"
+    },
+    {
+      "name": "La Voie",
+      "url": "http://silkperfumes.cl/cdn/shop/files/Maison-Alhambra-La-Voie-EDP-100-ml.png?crop=center&height=1200&v=1710518453&width=1200"
+    },
+    {
+      "name": "B.A.D Femme",
+      "url": "https://www.shoppingchina.com.py/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNFVGQ0E9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--59ccf2db29cf1ae33b154c370e5ceea3ea4b153c/859979.jpg"
+    },
+    {
+      "name": "Alive Now",
+      "url": "https://cdn.sistemawbuy.com.br/arquivos/2991e0dc262d35f367db71db5650f367/produtos/6952e159b646f/15402696290-perfume-arabe-maison-alhambra-alive-now-feminino-edp-100ml-2-6952e186f1927.jpg"
+    },
+    {
+      "name": "Pink Shimmer Secret",
+      "url": "https://www.belecoboom.ie/wp-content/uploads/2024/02/Maison-Alhambra-Pink-Shimmer-Secret-Beleco-Boom.png"
+    },
+    {
+      "name": "Haya Masc",
+      "url": "https://fraguru.com/mdimg/secundar/o.107750.jpg"
+    },
+    {
+      "name": "Noble Blush Masc",
+      "url": "https://layalistore.co/cdn/shop/files/ChatGPTImage5may2025_12_39_26.png?v=1747939057&width=1445"
+    },
+    {
+      "name": "Coconut Passion",
+      "url": "https://silkperfumes.cl/cdn/shop/files/victoria-secret-coconut-passion-250ml-_Nueva_Colecci_n_-Silk-Perfumes.png?v=1763499447&width=1125"
+    },
+    {
+      "name": "Pure Seduction",
+      "url": "https://silkperfumes.cl/cdn/shop/files/victoria-secret-colonia-pure-seduction-250ml-_Nueva_Colecci_n_-silk-perfumes.png?crop=center&height=1500&v=1763572958&width=1000"
+    },
+    {
+      "name": "Velvet Petals",
+      "url": "https://www.lojaglamourosa.com/resources/medias/shop/products/thumbnails/shop-image-large/shop-pf-05061-01-velvet-petals-fragrance-body-mist---250ml--1.jpg"
+    },
+    {
+      "name": "Bare Vanilla",
+      "url": "https://images.tcdn.com.br/img/img_prod/1057347/essencia_perfumaria_bare_vanilla_100ml_4665_1_4d275ac51be3cffb80fb5fba43e7415f.png"
+    },
+    {
+      "name": "Love Spell Brilho",
+      "url": "https://http2.mlstatic.com/D_NQ_NP_856169-MLB89588169254_082025-O-victorias-secret-love-spell-shimmer-body-mist-com-brilho-250ml.webp"
+    },
+    {
+      "name": "Velvet Petals Brilho",
+      "url": "https://photos.enjoei.com.br/victorias-secret-velvet-petals-shimmer-perfume-corporal-com-brilho-body-splash-com-brilho-250ml/1200xN/czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy8yNjY2NjI0NC9jMzYxMzE0NGU1ODdiMTVmMTA4MzIxODI2ZjJlMDI0Ni5qcGc"
+    },
+    {
+      "name": "Bare Vanilla Daydream",
+      "url": "https://fimgs.net/mdimg/perfume-thumbs/375x500.96479.2x.jpg"
+    },
+    {
+      "name": "Velvet Petals Grande",
+      "url": "https://http2.mlstatic.com/D_NQ_NP_824019-MLA88174927996_072025-O.webp"
+    },
+    {
+      "name": "Velvet Petals Joy Brilho",
+      "url": "https://photos.enjoei.com.br/victorias-secret-kit-body-splash-body-lotion-brilho-velvet-petals-joy/1200xN/czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy82NTgyNzI4L2VjOWFkMmJjM2EyYjBhM2Y0ZGRkODRmMzc5YTAwZDc5LmpwZw"
+    },
+    {
+      "name": "Velvet Petals Brulee",
+      "url": "https://http2.mlstatic.com/D_NQ_NP_810886-MLU101200158220_122025-O.webp"
+    },
+    {
+      "name": "Pure Seduction Joy Brilho",
+      "url": "https://photos.enjoei.com.br/victorias-secret-body-splash-brilho-shimmer-pure-seduction-joy/1200xN/czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy82NTgyNzI4L2I4MGY0YzY0ZTk3NDczODVkODhjMTgxNDQ1MWQyZjRlLmpwZw"
+    },
+    {
+      "name": "Coconut Passion Grande",
+      "url": "https://http2.mlstatic.com/D_Q_NP_2X_984531-MCO87086584653_072025-E.webp"
+    },
+    {
+      "name": "Haya Mini",
+      "url": "https://http2.mlstatic.com/D_NQ_NP_723349-MLB77236786685_062024-O.webp"
+    },
+    {
+      "name": "MAYAR Mini",
+      "url": "https://nextcell.com.ar/wp-content/uploads/2025/10/Imagen-de-WhatsApp-2025-10-07-a-las-15.53.17_cb5c62e2.jpg"
+    },
+    {
+      "name": "Club de Nuit Iconic Mini",
+      "url": "https://images.tcdn.com.br/img/img_prod/1376207/club_de_nuit_iconic_isabelle_15ml_1_20260314143621_b98b85cf5707.jpeg"
+    },
+    {
+      "name": "CANNON MUSK",
+      "url": "https://ferniplastar.vtexassets.com/arquivos/ids/5964613/9261551_0_190624112600.jpg?v=638794303495570000"
+    },
+    {
+      "name": "Sceptre Malachite",
+      "url": "http://perfumeschile.cl/cdn/shop/files/sceptre-Malachite.jpg?v=1713822935"
+    },
+    {
+      "name": "Yeah Man",
+      "url": "https://cazanovaonline.mx/cdn/shop/files/1_54497b1f-842f-41ce-b9f0-babcae723ffa.webp?v=1765470666&width=1946"
+    },
+    {
+      "name": "No. 2 Men",
+      "url": "https://cdn.sistemawbuy.com.br/arquivos/2991e0dc262d35f367db71db5650f367/produtos/6953da9e4b407/15402815169-perfume-arabe-maison-alhambra-no-2-men-masculino-edp-100ml-2-6953daabeb0c0.jpg"
+    },
+    {
+      "name": "Asad Bourbon",
+      "url": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m79vlrccxhsc51"
+    },
+    {
+      "name": "Asad Elixir",
+      "url": "https://cdn.sistemawbuy.com.br/arquivos/2991e0dc262d35f367db71db5650f367/produtos/69011f852a264/15387657654-perfume-arabe-lattafa-asad-elixir-masculino-edp-100ml-3-69011f9b562f0.jpg"
+    },
+    {
+      "name": "Fakhar Black",
+      "url": "https://lujoperfume.com/wp-content/uploads/2023/12/Fakhar-Black-100-Ml-3.4-oz-EDP-for-men-by-Lattafa-2.png"
+    },
+    {
+      "name": "Fakhar Platin",
+      "url": "https://emiratesoud.co.uk/cdn/shop/files/Fakhar-Lattafa-Platin-Perfume-100ml-EDP-Lattafa-169108349.jpg?v=1748915719&width=1946"
+    },
+    {
+      "name": "Khamrah",
+      "url": "https://cdn.sistemawbuy.com.br/arquivos/2991e0dc262d35f367db71db5650f367/produtos/68c853bacc17d/15376198583-perfume-arabe-lattafa-khamrah-dukhan-edp-100ml-masculino-1-68c853eb6bdae.jpg"
+    },
+    {
+      "name": "AMEER",
+      "url": "http://emiratesoud.co.uk/cdn/shop/files/Ameer-Perfume-100ml-EDP-Risala-175676526.jpg?v=1756238215"
+    },
+    {
+      "name": "Wazeer",
+      "url": "https://cdn.awsli.com.br/600x700/2758/2758187/produto/359151049/miniatura_019_arabic-auzmtg14l3.png"
+    },
+    {
+      "name": "Hayaati",
+      "url": "https://i5.walmartimages.com/asr/dbbb3bb4-fa7f-4438-b420-85eec40736d9.a74590963db597935000980d4fa98acc.jpeg"
+    },
+    {
+      "name": "Maahir Legacy",
+      "url": "https://maisonduperfume.com/v1/wp-content/uploads/2023/06/maison-du-perfume-lattafa-maahir-legacy-01.jpg"
+    },
+    {
+      "name": "Ameer Al Oudh Intense",
+      "url": "https://www.myperfumeshop.com.au/cdn/shop/products/lattafa-ameer-al-oudh-intense-oud-edp-perfume-cologne-479795.jpg?v=1702195555&width=1080"
+    },
+    {
+      "name": "Jasoor",
+      "url": "https://cdn.sistemawbuy.com.br/arquivos/2991e0dc262d35f367db71db5650f367/produtos/695d6a7fa922c/15404232494-perfume-arabe-jasoor-lattafa-masculino-edp-100ml-5-695d6abaa8918.jpg"
+    },
+    {
+      "name": "Pisa",
+      "url": "https://lujoperfume.com/wp-content/uploads/2024/09/Pisa-100-Ml-3.4-oz-EDP-by-Lattafa-4-web.webp"
+    },
+    {
+      "name": "Shaheen Silver",
+      "url": "https://down-br.img.susercontent.com/file/sg-11134201-81zwt-micho62cytxe72"
+    },
+    {
+      "name": "9PM Rebel",
+      "url": "https://www.intenseoud.com/cdn/shop/files/1_1f859bfb-8c87-4ef9-a2c4-2b2c1c8dfea9_1200x.jpg?v=1732989507"
+    },
+    {
+      "name": "9 PM ELIXIR",
+      "url": "https://us.afnan.com/cdn/shop/files/9PM_ELIXIR-3.png?v=1753259051&width=1000"
+    },
+    {
+      "name": "Pacific Aura",
+      "url": "https://m.media-amazon.com/images/I/81nq80RGFOL._SL500_.jpg"
+    },
+    {
+      "name": "Rayhaan Aquatica",
+      "url": "https://perfumeschile.cl/cdn/shop/files/aquatica.jpg?v=1766151519&width=1024"
+    },
+    {
+      "name": "Rayhaan Elixir",
+      "url": "https://emiratesoud.co.uk/cdn/shop/files/Rayhaan-Elixir-Perfume-100ml-EDP-by-Rayhaan-179890721.png?v=1762293417&width=823"
+    },
+    {
+      "name": "Arsenal",
+      "url": "https://www.ifragrancia.com/imagem/produtos/e/perfume-arsenal-platinum-100ml-p-2293-2.jpg"
+    },
+    {
+      "name": "Legend",
+      "url": "https://http2.mlstatic.com/D_NQ_NP_902349-MLB82348593343_022025-O.webp"
+    },
+    {
+      "name": "Joop 125ml",
+      "url": "https://http2.mlstatic.com/D_NQ_NP_903641-MLU43911911561_102020-O.webp"
+    },
+    {
+      "name": "Hawas Malibu",
+      "url": "https://www.worldshop.com.py/img/56054/produtos/1200/60dfc77c726e3ad4c28a10d4f6152e2a.jpg"
+    },
+    {
+      "name": "HAWAS ELIXIR",
+      "url": "https://arabianscents.net/wp-content/uploads/2026/01/APA-DE-PARFUM-RASASI-HAWAS-ELIXIR-100-ML-1.png"
+    },
+    {
+      "name": "Habibi King",
+      "url": "https://precosnoparaguai.s3.amazonaws.com/product_images/99c85fac-dd85-4076-9407-8e606fff55d4.png"
+    },
+    {
+      "name": "Ferrari Black",
+      "url": "https://drogariasp.vteximg.com.br/arquivos/ids/1289709-1000-1000/Perfume-Ferrari-Scuderia-Black-125ml-Eau-Original.jpg?v=638901058938370000"
+    },
+    {
+      "name": "Qaed Al Fursan Branco",
+      "url": "https://www.techstore.com.py/51-thickbox_default/perfume-lataffa-qaed-al-fursan-branco-unisex.jpg"
+    },
+    {
+      "name": "Voux Zingy Paris",
+      "url": "https://cosmetic.cl/cdn/shop/files/Perfume-Emir-Voux-Zingy-EDP-100-ml-Paris-Corner_800x.png?v=1749411202"
+    }
+  ]
+}

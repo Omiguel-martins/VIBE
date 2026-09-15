@@ -1,0 +1,17 @@
+{
+  "name": "vibe-image-scraper",
+  "version": "1.0.0",
+  "description": "Busca imagens de perfumes e atualiza o Supabase",
+  "type": "module",
+  "main": "buscar-imagens-produtos.js",
+  "scripts": {
+    "start": "node buscar-imagens-produtos.js",
+    "dry-run": "node buscar-imagens-produtos.js --dry-run",
+    "feminino": "node buscar-imagens-produtos.js --gender=feminino",
+    "masculino": "node buscar-imagens-produtos.js --gender=masculino"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.116.0",
+    "cheerio": "^1.2.0"
+  }
+}
