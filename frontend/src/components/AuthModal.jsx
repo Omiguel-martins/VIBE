@@ -18,7 +18,7 @@ export default function AuthModal({ isOpen, onClose }) {
   const [authError, setAuthError] = useState(null);
   const [authLoading, setAuthLoading] = useState(false);
 
-  if (!isOpen) return null;
+  // Removido o `if (!isOpen) return null;` para permitir a animação CSS de fechamento
 
   const handleAuth = async (e) => {
     e.preventDefault();
@@ -48,20 +48,24 @@ export default function AuthModal({ isOpen, onClose }) {
 
   return (
     <>
-      <div className="modal-overlay open" onClick={onClose} />
-      <div className="modal open">
-        <button className="modal-close" onClick={onClose}>✕</button>
-        <h2>{authMode === 'login' ? 'Entrar' : 'Criar conta'}</h2>
+      <div className={`minicart-overlay ${isOpen ? 'open' : ''}`} onClick={onClose} />
+      <div className={`login-drawer ${isOpen ? 'open' : ''}`}>
+        <div className="login-header">
+          <button className="close-btn" onClick={onClose}>✕</button>
+        </div>
+        
+        <div className="login-content">
+          <h2>{authMode === 'login' ? 'Entrar' : 'Criar conta'}</h2>
 
-        <div className="auth-tabs">
-          <button
-            className={`auth-tab ${authMode === 'login' ? 'active' : ''}`}
-            onClick={() => setAuthMode('login')}
+          <div className="auth-tabs" style={{ display: 'flex', gap: '10px', marginBottom: '20px' }}>
+            <button
+              className={`btn-text ${authMode === 'login' ? 'bold-highlight' : ''}`}
+              onClick={() => setAuthMode('login')}
           >
             Entrar
           </button>
           <button
-            className={`auth-tab ${authMode === 'signup' ? 'active' : ''}`}
+            className={`btn-text ${authMode === 'signup' ? 'bold-highlight' : ''}`}
             onClick={() => setAuthMode('signup')}
           >
             Criar conta
@@ -113,6 +117,7 @@ export default function AuthModal({ isOpen, onClose }) {
             {authLoading ? 'Aguarde...' : (authMode === 'login' ? 'Entrar' : 'Criar conta')}
           </button>
         </form>
+        </div>
       </div>
     </>
   );
