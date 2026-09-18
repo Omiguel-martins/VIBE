@@ -3,6 +3,8 @@ import { useParams, Link } from 'react-router-dom';
 import { supabase } from '../supabaseClient';
 import { useCart } from '../context/CartContext';
 import { useAuth } from '../context/AuthContext';
+import AuthModal from '../components/AuthModal';
+import Footer from '../components/Footer';
 import '../App.css';
 
 function StarRating({ value, onChange }) {
@@ -48,13 +50,13 @@ export default function ProductDetail() {
         const { data, error } = await supabase
           .from('products').select('*').eq('slug', slug).single();
         if (error) throw error;
-        if (data) { 
+        if (data) {
           // Se o produto está inativo e não é admin
           if (data.is_active === false && !isAdmin) {
             setIsAvailable(false);
             setProduct(null);
           } else {
-            setProduct(data); 
+            setProduct(data);
             setActiveImage(data.image_url);
             setIsAvailable(true);
           }
@@ -157,7 +159,7 @@ export default function ProductDetail() {
   }
 
   const allImages = [product.image_url, ...(product.gallery_urls || [])].filter(Boolean);
-  const avgRating = reviews.length > 0 ? (reviews.reduce((a,b)=>a+b.rating,0)/reviews.length).toFixed(1) : null;
+  const avgRating = reviews.length > 0 ? (reviews.reduce((a, b) => a + b.rating, 0) / reviews.length).toFixed(1) : null;
 
   return (
     <>
@@ -320,21 +322,7 @@ export default function ProductDetail() {
         </div>
       </section>
 
-      <footer className="footer">
-        <div className="footer-section">
-          <h4>VIBE</h4>
-          <p style={{ color: '#aaa', maxWidth: '300px' }}>
-            A marca de Body Splash feita para exaltar a sua personalidade, todos os dias.
-          </p>
-        </div>
-        <div className="footer-section">
-          <h4>Links Úteis</h4>
-          <div className="footer-links">
-            <a href="#">Política de Privacidade</a>
-            <a href="#">Trocas e Devoluções</a>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </>
   );
 }

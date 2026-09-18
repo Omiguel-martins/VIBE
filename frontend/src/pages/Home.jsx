@@ -7,6 +7,7 @@ import HeroCarousel from '../components/HeroCarousel';
 import ProductGrid from '../components/ProductGrid';
 import AuthModal from '../components/AuthModal';
 import SearchBar from '../components/SearchBar';
+import Footer from '../components/Footer';
 
 const ITEMS_PER_PAGE = 28;
 
@@ -143,7 +144,7 @@ function Home() {
             {[
               { label: 'Todos os Produtos', value: 'todos' },
               { label: 'VIBE', value: 'vibe' },
-              { label: 'Fragrâncias', value: 'fragrancia' },
+              { label: 'Perfumes', value: 'Perfume' },
               { label: 'Body Splash', value: 'bodysplash' },
               { label: 'Combos', value: 'combo' },
             ].map(({ label, value }) => (
@@ -233,34 +234,8 @@ function Home() {
         />
       </main>
 
-      {/* Footer */}
-      <footer className="footer">
-        <div className="footer-section">
-          <h4>VIBE</h4>
-          <p style={{ color: '#aaa', maxWidth: '300px' }}>
-            A marca de Body Splash feita para exaltar a sua personalidade, todos os dias.
-          </p>
-          <div className="badges">
-            <span className="badge">Compra Segura 🔒</span>
-            <span className="badge">Garantia de Satisfação ⭐</span>
-          </div>
-        </div>
-        <div className="footer-section">
-          <h4>Links Úteis</h4>
-          <div className="footer-links">
-            <a href="#">Política de Privacidade</a>
-            <a href="#">Termos de Uso</a>
-            <a href="#">Trocas e Devoluções</a>
-          </div>
-        </div>
-        <div className="footer-section">
-          <h4>Siga-nos</h4>
-          <div className="footer-links">
-            <a href="#">Instagram</a>
-            <a href="#">TikTok</a>
-          </div>
-        </div>
-      </footer>
+      {/* Footer (Componente Compartilhado) */}
+      <Footer />
 
       {/* Auth Modal — componente isolado */}
       <AuthModal isOpen={isLoginOpen} onClose={() => setIsLoginOpen(false)} />

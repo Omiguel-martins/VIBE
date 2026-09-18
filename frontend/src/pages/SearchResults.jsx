@@ -6,6 +6,7 @@ import { useAuth } from '../context/AuthContext';
 import ProductGrid from '../components/ProductGrid';
 import SearchBar from '../components/SearchBar';
 import Minicart from '../components/Minicart';
+import Footer from '../components/Footer';
 
 const ITEMS_PER_PAGE = 28;
 
@@ -158,6 +159,8 @@ export default function SearchResults() {
           onAddToCart={addToCart}
         />
       </main>
+
+      <Footer />
     </>
   );
 }
