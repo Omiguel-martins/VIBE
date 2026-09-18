@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { CartProvider } from './context/CartContext';
 import { AuthProvider } from './context/AuthContext';
 import Home from './pages/Home';
+import SearchResults from './pages/SearchResults';
 import ProductDetail from './pages/ProductDetail';
 import AdminLayout from './components/admin/AdminLayout';
 import AdminDashboard from './components/admin/AdminDashboard';
@@ -22,6 +23,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/produto/:slug" element={<ProductDetail />} />
+            <Route path="/busca" element={<SearchResults />} />
 
             {/* Rotas de Admin — Protegidas no AdminLayout */}
             <Route path="/admin" element={<AdminLayout />}>

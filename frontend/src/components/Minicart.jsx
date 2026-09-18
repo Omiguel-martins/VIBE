@@ -1,7 +1,19 @@
 import { useCart } from '../context/CartContext';
+import { useEffect } from 'react';
 
 export default function Minicart() {
   const { cartItems, cartTotal, isCartOpen, setIsCartOpen, removeFromCart, updateQty } = useCart();
+
+  useEffect(() => {
+    if (isCartOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, [isCartOpen]);
 
   const handleWhatsAppCheckout = () => {
     const phoneNumber = "5566981338837";

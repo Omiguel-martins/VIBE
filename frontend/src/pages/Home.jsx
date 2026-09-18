@@ -6,6 +6,7 @@ import { useAuth } from '../context/AuthContext';
 import HeroCarousel from '../components/HeroCarousel';
 import ProductGrid from '../components/ProductGrid';
 import AuthModal from '../components/AuthModal';
+import SearchBar from '../components/SearchBar';
 
 const ITEMS_PER_PAGE = 28;
 
@@ -44,6 +45,18 @@ function Home() {
         if (data?.length) setHeroSlides(data);
       });
   }, []);
+
+  // ─── Bloqueio de scroll do body quando drawer estiver aberto ──────────────
+  useEffect(() => {
+    if (isCategoryDrawerOpen || isLoginOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, [isCategoryDrawerOpen, isLoginOpen]);
 
   // ─── Server-side pagination: rebusca ao mudar filtros ou página ──────────────
   useEffect(() => {
@@ -177,6 +190,7 @@ function Home() {
           </button>
         </div>
         <div className="logo">VIBE</div>
+        <SearchBar />
         <div className="header-actions">
           {isAdmin && (
             <a href="/admin" className="btn-text" style={{ marginRight: '20px', fontWeight: '700', textDecoration: 'underline' }}>
