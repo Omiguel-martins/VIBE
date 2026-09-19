@@ -44,6 +44,9 @@ export default function Footer() {
             <button onClick={() => setModalType('terms')} className="footer-btn-link">Termos de Uso</button>
             <button onClick={handleWhatsApp} className="footer-btn-link">Trocas e Devoluções</button>
           </div>
+          <div style={{ marginTop: '20px', fontSize: '0.8rem', color: '#aaa' }}>
+            Desenvolvido por: <a href="https://www.instagram.com/omiguel.martins/" target="_blank" rel="noopener noreferrer" style={{ color: '#fff', textDecoration: 'none' }}>@omiguel.martins</a>
+          </div>
         </div>
         <div className="footer-section">
           <h4>Siga-nos</h4>
