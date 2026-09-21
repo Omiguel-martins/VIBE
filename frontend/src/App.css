@@ -1688,3 +1688,27 @@
     font-size: 1.4rem;
   }
 }
+
+/* ── Assinatura do desenvolvedor no footer ── */
+.footer-dev-credit {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 20px;
+  font-size: 0.78rem;
+  color: #888888;
+}
+
+.footer-dev-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: #cccccc;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.footer-dev-link:hover {
+  color: #c9a25b;
+}
