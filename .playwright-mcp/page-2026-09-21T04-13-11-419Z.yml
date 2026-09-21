@@ -1,0 +1,10 @@
+- generic [ref=f1e2]:
+  - generic [ref=f1e3]:
+    - generic [ref=f1e4]:
+      - heading "Sua Sacola" [level=2] [ref=f1e5]
+      - button "✕" [ref=f1e6] [cursor=pointer]
+    - paragraph [ref=f1e8]: Sua sacola está vazia.
+  - banner [ref=f1e9]:
+    - link "VIBE" [ref=f1e10] [cursor=pointer]:
+      - /url: /
+  - generic [ref=f1e11]: Carregando fragrância...

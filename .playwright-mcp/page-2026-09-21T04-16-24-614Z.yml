@@ -1,0 +1,73 @@
+- generic [ref=f2e2]:
+  - generic [ref=f2e3]:
+    - generic [ref=f2e4]:
+      - heading "Sua Sacola" [level=2] [ref=f2e5]
+      - button "✕" [ref=f2e6] [cursor=pointer]
+    - paragraph [ref=f2e8]: Sua sacola está vazia.
+  - generic [ref=f2e9]:
+    - button "✕" [ref=f2e11] [cursor=pointer]
+    - generic [ref=f2e12]:
+      - heading "Navegação" [level=2] [ref=f2e13]
+      - generic [ref=f2e14]:
+        - heading "Categorias" [level=3] [ref=f2e15]
+        - button "Todos os Produtos" [ref=f2e16] [cursor=pointer]
+        - button "VIBE" [ref=f2e17] [cursor=pointer]
+        - button "Perfumes" [ref=f2e18] [cursor=pointer]
+        - button "Body Splash" [ref=f2e19] [cursor=pointer]
+        - button "Combos" [ref=f2e20] [cursor=pointer]
+      - generic [ref=f2e21]:
+        - heading "Para Quem?" [level=3] [ref=f2e22]
+        - button "Unissex / Todos" [ref=f2e23] [cursor=pointer]
+        - button "Para Elas" [ref=f2e24] [cursor=pointer]
+        - button "Para Eles" [ref=f2e25] [cursor=pointer]
+      - generic [ref=f2e26]:
+        - link "Sobre a Marca" [ref=f2e27] [cursor=pointer]:
+          - /url: "#about"
+        - link "Contato" [ref=f2e28] [cursor=pointer]:
+          - /url: "#contact"
+  - banner [ref=f2e29]:
+    - button "☰ Catálogo" [ref=f2e31] [cursor=pointer]:
+      - generic [ref=f2e32]: ☰
+      - generic [ref=f2e33]: Catálogo
+    - generic [ref=f2e34]: VIBE
+    - generic [ref=f2e36]:
+      - generic [aria-hidden] [ref=f2e37]: 🔍
+      - searchbox "Buscar produtos" [ref=f2e38]
+    - generic [ref=f2e39]:
+      - button "Entrar" [ref=f2e40] [cursor=pointer]
+      - button "Sacola" [ref=f2e41] [cursor=pointer]
+  - main [ref=f2e42]:
+    - heading "Nossas Fragrâncias" [level=2] [ref=f2e43]
+    - paragraph [ref=f2e45]: Carregando produtos...
+  - contentinfo [ref=f2e46]:
+    - generic [ref=f2e47]:
+      - heading "VIBE" [level=4] [ref=f2e48]
+      - paragraph [ref=f2e49]: A marca de Body Splashes e Perfumes feita para exaltar a sua personalidade, todos os dias.
+      - generic [ref=f2e50]:
+        - generic [ref=f2e51]: Compra Segura 🔒
+        - generic [ref=f2e52]: Garantia de Satisfação ⭐
+    - generic [ref=f2e53]:
+      - heading "Links Úteis" [level=4] [ref=f2e54]
+      - generic [ref=f2e55]:
+        - button "Política de Privacidade" [ref=f2e56] [cursor=pointer]
+        - button "Termos de Uso" [ref=f2e57] [cursor=pointer]
+        - button "Trocas e Devoluções" [ref=f2e58] [cursor=pointer]
+    - generic [ref=f2e59]:
+      - heading "Siga-nos" [level=4] [ref=f2e60]
+      - link "Instagram" [ref=f2e62] [cursor=pointer]:
+        - /url: https://www.instagram.com/vibepormarinagabriela?utm_source=ig_web_button_share_sheet&stkn=ZDNlZDc0MzIxNw==
+  - generic [ref=f2e63]:
+    - button "✕" [ref=f2e65] [cursor=pointer]
+    - generic [ref=f2e66]:
+      - heading "Entrar" [level=2] [ref=f2e67]
+      - generic [ref=f2e68]:
+        - button "Entrar" [ref=f2e69] [cursor=pointer]
+        - button "Criar conta" [ref=f2e70] [cursor=pointer]
+      - generic [ref=f2e71]:
+        - generic [ref=f2e72]:
+          - generic [ref=f2e73]: E-mail
+          - textbox "seu@email.com" [ref=f2e74]
+        - generic [ref=f2e75]:
+          - generic [ref=f2e76]: Senha
+          - textbox "••••••••" [ref=f2e77]
+        - button "Entrar" [ref=f2e78] [cursor=pointer]

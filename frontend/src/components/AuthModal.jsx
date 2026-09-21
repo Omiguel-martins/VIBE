@@ -82,6 +82,7 @@ export default function AuthModal({ isOpen, onClose }) {
                 onChange={e => setFullName(e.target.value)}
                 required
                 placeholder="Seu nome"
+                autoComplete="name"
               />
             </div>
           )}
@@ -93,6 +94,7 @@ export default function AuthModal({ isOpen, onClose }) {
               onChange={e => setEmail(e.target.value)}
               required
               placeholder="seu@email.com"
+              autoComplete="email"
             />
           </div>
           <div className="input-group">
@@ -104,6 +106,7 @@ export default function AuthModal({ isOpen, onClose }) {
               required
               placeholder="••••••••"
               minLength={6}
+              autoComplete={authMode === 'signup' ? 'new-password' : 'current-password'}
             />
           </div>
 

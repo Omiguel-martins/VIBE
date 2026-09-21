@@ -1,0 +1,342 @@
+- generic [ref=f2e2]:
+  - generic [ref=f2e3]:
+    - generic [ref=f2e4]:
+      - heading "Sua Sacola" [level=2] [ref=f2e5]
+      - button "✕" [ref=f2e6] [cursor=pointer]
+    - paragraph [ref=f2e8]: Sua sacola está vazia.
+  - generic [ref=f2e9]:
+    - button "✕" [ref=f2e11] [cursor=pointer]
+    - generic [ref=f2e12]:
+      - heading "Navegação" [level=2] [ref=f2e13]
+      - generic [ref=f2e14]:
+        - heading "Categorias" [level=3] [ref=f2e15]
+        - button "Todos os Produtos" [ref=f2e16] [cursor=pointer]
+        - button "VIBE" [ref=f2e17] [cursor=pointer]
+        - button "Perfumes" [ref=f2e18] [cursor=pointer]
+        - button "Body Splash" [ref=f2e19] [cursor=pointer]
+        - button "Combos" [ref=f2e20] [cursor=pointer]
+      - generic [ref=f2e21]:
+        - heading "Para Quem?" [level=3] [ref=f2e22]
+        - button "Unissex / Todos" [ref=f2e23] [cursor=pointer]
+        - button "Para Elas" [ref=f2e24] [cursor=pointer]
+        - button "Para Eles" [ref=f2e25] [cursor=pointer]
+      - generic [ref=f2e26]:
+        - link "Sobre a Marca" [ref=f2e27] [cursor=pointer]:
+          - /url: "#about"
+        - link "Contato" [ref=f2e28] [cursor=pointer]:
+          - /url: "#contact"
+  - banner [ref=f2e29]:
+    - button "☰ Catálogo" [ref=f2e31] [cursor=pointer]:
+      - generic [ref=f2e32]: ☰
+      - generic [ref=f2e33]: Catálogo
+    - generic [ref=f2e34]: VIBE
+    - generic [ref=f2e36]:
+      - generic [aria-hidden] [ref=f2e37]: 🔍
+      - searchbox "Buscar produtos" [ref=f2e38]
+    - generic [ref=f2e39]:
+      - button "Entrar" [active] [ref=f2e40] [cursor=pointer]
+      - button "Sacola" [ref=f2e41] [cursor=pointer]
+  - generic [ref=f2e82]:
+    - generic [ref=f2e83]: LINHA VIBE
+    - heading "Qual sua VIBE hoje?" [level=1] [ref=f2e84]
+    - paragraph
+    - button "VER MINHA VIBE" [ref=f2e85] [cursor=pointer]
+  - main [ref=f2e42]:
+    - heading "Nossas Fragrâncias" [level=2] [ref=f2e43]
+    - generic [ref=f2e44]:
+      - generic [ref=f2e86]:
+        - link [ref=f2e87] [cursor=pointer]:
+          - /url: /produto/combo-vibe-completo
+          - img "Combo VIBE Completo" [ref=f2e89]
+          - generic [ref=f2e90]:
+            - text: COMBO
+            - heading "Combo VIBE Completo" [level=3] [ref=f2e91]
+            - paragraph [ref=f2e92]: R$ 150,00
+        - button "Adicionar à Sacola" [ref=f2e93] [cursor=pointer]
+      - generic [ref=f2e94]:
+        - link [ref=f2e95] [cursor=pointer]:
+          - /url: /produto/vibe-boa-menina
+          - img "Vibe - Boa Menina" [ref=f2e97]
+          - generic [ref=f2e98]:
+            - text: VIBE
+            - heading "Vibe - Boa Menina" [level=3] [ref=f2e99]
+            - paragraph [ref=f2e100]: R$ 59,90
+        - button "Adicionar à Sacola" [ref=f2e101] [cursor=pointer]
+      - generic [ref=f2e102]:
+        - link [ref=f2e103] [cursor=pointer]:
+          - /url: /produto/vibe-rosa-da-manha
+          - img "Vibe - Rosa da Manhã" [ref=f2e105]
+          - generic [ref=f2e106]:
+            - text: VIBE
+            - heading "Vibe - Rosa da Manhã" [level=3] [ref=f2e107]
+            - paragraph [ref=f2e108]: R$ 59,90
+        - button "Adicionar à Sacola" [ref=f2e109] [cursor=pointer]
+      - generic [ref=f2e110]:
+        - link [ref=f2e111] [cursor=pointer]:
+          - /url: /produto/vibe-invencivel
+          - img "Vibe - Invencível" [ref=f2e113]
+          - generic [ref=f2e114]:
+            - text: VIBE
+            - heading "Vibe - Invencível" [level=3] [ref=f2e115]
+            - paragraph [ref=f2e116]: R$ 59,90
+        - button "Adicionar à Sacola" [ref=f2e117] [cursor=pointer]
+      - generic [ref=f2e118]:
+        - link [ref=f2e119] [cursor=pointer]:
+          - /url: /produto/ameerat-al-arab-sugar-crown
+          - img "Ameerat Al Arab Sugar Crown" [ref=f2e121]
+          - generic [ref=f2e122]:
+            - text: FRAGRANCIA
+            - heading "Ameerat Al Arab Sugar Crown" [level=3] [ref=f2e123]
+            - paragraph [ref=f2e124]: R$ 280,00
+        - button "Adicionar à Sacola" [ref=f2e125] [cursor=pointer]
+      - generic [ref=f2e126]:
+        - link [ref=f2e127] [cursor=pointer]:
+          - /url: /produto/layaan
+          - img "Layaan" [ref=f2e129]
+          - generic [ref=f2e130]:
+            - text: FRAGRANCIA
+            - heading "Layaan" [level=3] [ref=f2e131]
+            - paragraph [ref=f2e132]: R$ 330,00
+        - button "Adicionar à Sacola" [ref=f2e133] [cursor=pointer]
+      - generic [ref=f2e134]:
+        - link [ref=f2e135] [cursor=pointer]:
+          - /url: /produto/musamam-white
+          - img "Musamam White" [ref=f2e137]
+          - generic [ref=f2e138]:
+            - text: FRAGRANCIA
+            - heading "Musamam White" [level=3] [ref=f2e139]
+            - paragraph [ref=f2e140]: R$ 480,00
+        - button "Adicionar à Sacola" [ref=f2e141] [cursor=pointer]
+      - generic [ref=f2e142]:
+        - link [ref=f2e143] [cursor=pointer]:
+          - /url: /produto/sabah-al-ward
+          - img "Sabah Al Ward" [ref=f2e145]
+          - generic [ref=f2e146]:
+            - text: FRAGRANCIA
+            - heading "Sabah Al Ward" [level=3] [ref=f2e147]
+            - paragraph [ref=f2e148]: R$ 299,00
+        - button "Adicionar à Sacola" [ref=f2e149] [cursor=pointer]
+      - generic [ref=f2e150]:
+        - link [ref=f2e151] [cursor=pointer]:
+          - /url: /produto/durrat
+          - img "Durrat" [ref=f2e153]
+          - generic [ref=f2e154]:
+            - text: FRAGRANCIA
+            - heading "Durrat" [level=3] [ref=f2e155]
+            - paragraph [ref=f2e156]: R$ 280,00
+        - button "Adicionar à Sacola" [ref=f2e157] [cursor=pointer]
+      - generic [ref=f2e158]:
+        - link [ref=f2e159] [cursor=pointer]:
+          - /url: /produto/nebras
+          - img "Nebras" [ref=f2e161]
+          - generic [ref=f2e162]:
+            - text: FRAGRANCIA
+            - heading "Nebras" [level=3] [ref=f2e163]
+            - paragraph [ref=f2e164]: R$ 380,00
+        - button "Adicionar à Sacola" [ref=f2e165] [cursor=pointer]
+      - generic [ref=f2e166]:
+        - link [ref=f2e167] [cursor=pointer]:
+          - /url: /produto/yara-moii
+          - img "YARA MOII" [ref=f2e169]
+          - generic [ref=f2e170]:
+            - text: FRAGRANCIA
+            - heading "YARA MOII" [level=3] [ref=f2e171]
+            - paragraph [ref=f2e172]: R$ 280,00
+        - button "Adicionar à Sacola" [ref=f2e173] [cursor=pointer]
+      - generic [ref=f2e174]:
+        - link [ref=f2e175] [cursor=pointer]:
+          - /url: /produto/queen-of-arabia
+          - img "Queen of Arábia" [ref=f2e177]
+          - generic [ref=f2e178]:
+            - text: FRAGRANCIA
+            - heading "Queen of Arábia" [level=3] [ref=f2e179]
+            - paragraph [ref=f2e180]: R$ 520,00
+        - button "Adicionar à Sacola" [ref=f2e181] [cursor=pointer]
+      - generic [ref=f2e182]:
+        - link [ref=f2e183] [cursor=pointer]:
+          - /url: /produto/emaan
+          - img "Emaan" [ref=f2e185]
+          - generic [ref=f2e186]:
+            - text: FRAGRANCIA
+            - heading "Emaan" [level=3] [ref=f2e187]
+            - paragraph [ref=f2e188]: R$ 299,00
+        - button "Adicionar à Sacola" [ref=f2e189] [cursor=pointer]
+      - generic [ref=f2e190]:
+        - link [ref=f2e191] [cursor=pointer]:
+          - /url: /produto/emeer
+          - img "Emeer" [ref=f2e193]
+          - generic [ref=f2e194]:
+            - text: FRAGRANCIA
+            - heading "Emeer" [level=3] [ref=f2e195]
+            - paragraph [ref=f2e196]: R$ 365,00
+        - button "Adicionar à Sacola" [ref=f2e197] [cursor=pointer]
+      - generic [ref=f2e198]:
+        - link [ref=f2e199] [cursor=pointer]:
+          - /url: /produto/her-confession
+          - img "Her Confession" [ref=f2e201]
+          - generic [ref=f2e202]:
+            - text: FRAGRANCIA
+            - heading "Her Confession" [level=3] [ref=f2e203]
+            - paragraph [ref=f2e204]: R$ 380,00
+        - button "Adicionar à Sacola" [ref=f2e205] [cursor=pointer]
+      - generic [ref=f2e206]:
+        - link [ref=f2e207] [cursor=pointer]:
+          - /url: /produto/tharwah-gold
+          - img "Tharwah Gold" [ref=f2e209]
+          - generic [ref=f2e210]:
+            - text: FRAGRANCIA
+            - heading "Tharwah Gold" [level=3] [ref=f2e211]
+            - paragraph [ref=f2e212]: R$ 480,00
+        - button "Adicionar à Sacola" [ref=f2e213] [cursor=pointer]
+      - generic [ref=f2e214]:
+        - link [ref=f2e215] [cursor=pointer]:
+          - /url: /produto/sakeena
+          - img "Sakeena" [ref=f2e217]
+          - generic [ref=f2e218]:
+            - text: FRAGRANCIA
+            - heading "Sakeena" [level=3] [ref=f2e219]
+            - paragraph [ref=f2e220]: R$ 280,00
+        - button "Adicionar à Sacola" [ref=f2e221] [cursor=pointer]
+      - generic [ref=f2e222]:
+        - link [ref=f2e223] [cursor=pointer]:
+          - /url: /produto/sabah-sugar
+          - img "Sabah Sugar" [ref=f2e225]
+          - generic [ref=f2e226]:
+            - text: FRAGRANCIA
+            - heading "Sabah Sugar" [level=3] [ref=f2e227]
+            - paragraph [ref=f2e228]: R$ 299,00
+        - button "Adicionar à Sacola" [ref=f2e229] [cursor=pointer]
+      - generic [ref=f2e230]:
+        - link [ref=f2e231] [cursor=pointer]:
+          - /url: /produto/habik
+          - img "Habik" [ref=f2e233]
+          - generic [ref=f2e234]:
+            - text: FRAGRANCIA
+            - heading "Habik" [level=3] [ref=f2e235]
+            - paragraph [ref=f2e236]: R$ 359,00
+        - button "Adicionar à Sacola" [ref=f2e237] [cursor=pointer]
+      - generic [ref=f2e238]:
+        - link [ref=f2e239] [cursor=pointer]:
+          - /url: /produto/mayar-cherry-intense
+          - img "Mayar Cherry Intense" [ref=f2e241]
+          - generic [ref=f2e242]:
+            - text: FRAGRANCIA
+            - heading "Mayar Cherry Intense" [level=3] [ref=f2e243]
+            - paragraph [ref=f2e244]: R$ 289,00
+        - button "Adicionar à Sacola" [ref=f2e245] [cursor=pointer]
+      - generic [ref=f2e246]:
+        - link [ref=f2e247] [cursor=pointer]:
+          - /url: /produto/eclaire
+          - img "Eclaire" [ref=f2e249]
+          - generic [ref=f2e250]:
+            - text: FRAGRANCIA
+            - heading "Eclaire" [level=3] [ref=f2e251]
+            - paragraph [ref=f2e252]: R$ 300,00
+        - button "Adicionar à Sacola" [ref=f2e253] [cursor=pointer]
+      - generic [ref=f2e254]:
+        - link [ref=f2e255] [cursor=pointer]:
+          - /url: /produto/mayar-natural-intense
+          - img "Mayar Natural Intense" [ref=f2e257]
+          - generic [ref=f2e258]:
+            - text: FRAGRANCIA
+            - heading "Mayar Natural Intense" [level=3] [ref=f2e259]
+            - paragraph [ref=f2e260]: R$ 289,00
+        - button "Adicionar à Sacola" [ref=f2e261] [cursor=pointer]
+      - generic [ref=f2e262]:
+        - link [ref=f2e263] [cursor=pointer]:
+          - /url: /produto/rannen
+          - img "Rannen" [ref=f2e265]
+          - generic [ref=f2e266]:
+            - text: FRAGRANCIA
+            - heading "Rannen" [level=3] [ref=f2e267]
+            - paragraph [ref=f2e268]: R$ 349,00
+        - button "Adicionar à Sacola" [ref=f2e269] [cursor=pointer]
+      - generic [ref=f2e270]:
+        - link [ref=f2e271] [cursor=pointer]:
+          - /url: /produto/fakhar-rose
+          - img "Fakhar Rose" [ref=f2e273]
+          - generic [ref=f2e274]:
+            - text: FRAGRANCIA
+            - heading "Fakhar Rose" [level=3] [ref=f2e275]
+            - paragraph [ref=f2e276]: R$ 350,00
+        - button "Adicionar à Sacola" [ref=f2e277] [cursor=pointer]
+      - generic [ref=f2e278]:
+        - link [ref=f2e279] [cursor=pointer]:
+          - /url: /produto/afeef-pavao
+          - img "Afeef Pavão" [ref=f2e281]
+          - generic [ref=f2e282]:
+            - text: FRAGRANCIA
+            - heading "Afeef Pavão" [level=3] [ref=f2e283]
+            - paragraph [ref=f2e284]: R$ 670,00
+        - button "Adicionar à Sacola" [ref=f2e285] [cursor=pointer]
+      - generic [ref=f2e286]:
+        - link [ref=f2e287] [cursor=pointer]:
+          - /url: /produto/mayar
+          - img "Mayar" [ref=f2e289]
+          - generic [ref=f2e290]:
+            - text: FRAGRANCIA
+            - heading "Mayar" [level=3] [ref=f2e291]
+            - paragraph [ref=f2e292]: R$ 279,00
+        - button "Adicionar à Sacola" [ref=f2e293] [cursor=pointer]
+      - generic [ref=f2e294]:
+        - link [ref=f2e295] [cursor=pointer]:
+          - /url: /produto/shagaf-al-ward
+          - img "Shagaf Al Ward" [ref=f2e297]
+          - generic [ref=f2e298]:
+            - text: FRAGRANCIA
+            - heading "Shagaf Al Ward" [level=3] [ref=f2e299]
+            - paragraph [ref=f2e300]: R$ 280,00
+        - button "Adicionar à Sacola" [ref=f2e301] [cursor=pointer]
+      - generic [ref=f2e302]:
+        - link [ref=f2e303] [cursor=pointer]:
+          - /url: /produto/durrat-love
+          - img "Durrat Love" [ref=f2e305]
+          - generic [ref=f2e306]:
+            - text: FRAGRANCIA
+            - heading "Durrat Love" [level=3] [ref=f2e307]
+            - paragraph [ref=f2e308]: R$ 320,00
+        - button "Adicionar à Sacola" [ref=f2e309] [cursor=pointer]
+    - generic [ref=f2e310]:
+      - button "Anterior" [disabled] [ref=f2e311]
+      - generic [ref=f2e312]:
+        - button "1" [ref=f2e313] [cursor=pointer]
+        - button "2" [ref=f2e314] [cursor=pointer]
+        - button "3" [ref=f2e315] [cursor=pointer]
+        - button "4" [ref=f2e316] [cursor=pointer]
+        - button "5" [ref=f2e317] [cursor=pointer]
+        - button "6" [ref=f2e318] [cursor=pointer]
+        - button "7" [ref=f2e319] [cursor=pointer]
+        - button "8" [ref=f2e320] [cursor=pointer]
+      - button "Próxima" [ref=f2e321] [cursor=pointer]
+  - contentinfo [ref=f2e46]:
+    - generic [ref=f2e47]:
+      - heading "VIBE" [level=4] [ref=f2e48]
+      - paragraph [ref=f2e49]: A marca de Body Splashes e Perfumes feita para exaltar a sua personalidade, todos os dias.
+      - generic [ref=f2e50]:
+        - generic [ref=f2e51]: Compra Segura 🔒
+        - generic [ref=f2e52]: Garantia de Satisfação ⭐
+    - generic [ref=f2e53]:
+      - heading "Links Úteis" [level=4] [ref=f2e54]
+      - generic [ref=f2e55]:
+        - button "Política de Privacidade" [ref=f2e56] [cursor=pointer]
+        - button "Termos de Uso" [ref=f2e57] [cursor=pointer]
+        - button "Trocas e Devoluções" [ref=f2e58] [cursor=pointer]
+    - generic [ref=f2e59]:
+      - heading "Siga-nos" [level=4] [ref=f2e60]
+      - link "Instagram" [ref=f2e62] [cursor=pointer]:
+        - /url: https://www.instagram.com/vibepormarinagabriela?utm_source=ig_web_button_share_sheet&stkn=ZDNlZDc0MzIxNw==
+  - generic [ref=f2e63]:
+    - button "✕" [ref=f2e65] [cursor=pointer]
+    - generic [ref=f2e66]:
+      - heading "Entrar" [level=2] [ref=f2e67]
+      - generic [ref=f2e68]:
+        - button "Entrar" [ref=f2e69] [cursor=pointer]
+        - button "Criar conta" [ref=f2e70] [cursor=pointer]
+      - generic [ref=f2e71]:
+        - generic [ref=f2e72]:
+          - generic [ref=f2e73]: E-mail
+          - textbox "seu@email.com" [ref=f2e74]
+        - generic [ref=f2e75]:
+          - generic [ref=f2e76]: Senha
+          - textbox "••••••••" [ref=f2e77]
+        - button "Entrar" [ref=f2e78] [cursor=pointer]

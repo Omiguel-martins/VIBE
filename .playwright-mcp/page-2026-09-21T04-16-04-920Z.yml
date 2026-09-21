@@ -1,0 +1,48 @@
+- generic [ref=f1e2]:
+  - generic [ref=f1e3]:
+    - generic [ref=f1e4]:
+      - heading "Sua Sacola" [level=2] [ref=f1e5]
+      - button "✕" [ref=f1e6] [cursor=pointer]
+    - paragraph [ref=f1e8]: Sua sacola está vazia.
+  - banner [ref=f1e79]:
+    - button "← Voltar" [ref=f1e81] [cursor=pointer]:
+      - generic [ref=f1e82]: ←
+      - generic [ref=f1e83]: Voltar
+    - generic [ref=f1e84] [cursor=pointer]: VIBE
+    - generic [ref=f1e85]:
+      - button "Entrar" [ref=f1e86] [cursor=pointer]
+      - button "Sacola" [ref=f1e87] [cursor=pointer]
+  - generic [ref=f1e90]:
+    - generic [aria-hidden] [ref=f1e91]: 🔍
+    - searchbox "Buscar produtos" [ref=f1e92]
+  - main [ref=f1e93]:
+    - heading [level=2] [ref=f1e95]:
+      - text: 1 resultado para "
+      - emphasis [ref=f1e96]: Boa Menina
+      - text: "\""
+    - generic [ref=f1e98]:
+      - link [ref=f1e99] [cursor=pointer]:
+        - /url: /produto/vibe-boa-menina
+        - img "Vibe - Boa Menina" [ref=f1e101]
+        - generic [ref=f1e102]:
+          - text: VIBE
+          - heading "Vibe - Boa Menina" [level=3] [ref=f1e103]
+          - paragraph [ref=f1e104]: R$ 59,90
+      - button "Adicionar à Sacola" [ref=f1e105] [cursor=pointer]
+  - contentinfo [ref=f1e106]:
+    - generic [ref=f1e107]:
+      - heading "VIBE" [level=4] [ref=f1e108]
+      - paragraph [ref=f1e109]: A marca de Body Splashes e Perfumes feita para exaltar a sua personalidade, todos os dias.
+      - generic [ref=f1e110]:
+        - generic [ref=f1e111]: Compra Segura 🔒
+        - generic [ref=f1e112]: Garantia de Satisfação ⭐
+    - generic [ref=f1e113]:
+      - heading "Links Úteis" [level=4] [ref=f1e114]
+      - generic [ref=f1e115]:
+        - button "Política de Privacidade" [ref=f1e116] [cursor=pointer]
+        - button "Termos de Uso" [ref=f1e117] [cursor=pointer]
+        - button "Trocas e Devoluções" [ref=f1e118] [cursor=pointer]
+    - generic [ref=f1e119]:
+      - heading "Siga-nos" [level=4] [ref=f1e120]
+      - link "Instagram" [ref=f1e122] [cursor=pointer]:
+        - /url: https://www.instagram.com/vibepormarinagabriela?utm_source=ig_web_button_share_sheet&stkn=ZDNlZDc0MzIxNw==

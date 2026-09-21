@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useSearchParams, useNavigate } from 'react-router-dom';
+import { usePageTitle } from '../hooks/usePageTitle';
+import { useOgTags } from '../hooks/useOgTags';
 import { supabase } from '../supabaseClient';
 import { useCart } from '../context/CartContext';
 import { useAuth } from '../context/AuthContext';
@@ -22,6 +24,15 @@ export default function SearchResults() {
   const [totalCount, setTotalCount] = useState(0);
   const [currentPage, setCurrentPage] = useState(1);
   const [isLoginOpen, setIsLoginOpen] = useState(false);
+
+  // Atualiza o <title> com o termo buscado
+  usePageTitle(query ? `Busca: "${query}"` : 'Buscar Produtos');
+  useOgTags({
+    title: query ? `Busca: "${query}"` : 'Buscar Produtos',
+    description: query
+      ? `Resultados para "${query}" na loja VIBE — Body Splashes e Perfumes com entrega para todo o Brasil.`
+      : 'Busque sua fragrância favorita na loja VIBE.',
+  });
 
   const totalPages = Math.ceil(totalCount / ITEMS_PER_PAGE);
 

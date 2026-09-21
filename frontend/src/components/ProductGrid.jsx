@@ -14,11 +14,22 @@ import { Link } from 'react-router-dom';
 export default function ProductGrid({ products, loading, totalPages, currentPage, onPageChange, onAddToCart }) {
   if (loading) {
     return (
-      <div style={{ textAlign: 'center', padding: '60px 0', color: '#888' }}>
-        <p>Carregando produtos...</p>
+      <div className="product-grid">
+        {Array.from({ length: 8 }).map((_, i) => (
+          <div className="product-card skeleton-card" key={i}>
+            <div className="skeleton skeleton-image" />
+            <div className="skeleton-body">
+              <div className="skeleton skeleton-tag" />
+              <div className="skeleton skeleton-title" />
+              <div className="skeleton skeleton-price" />
+            </div>
+            <div className="skeleton skeleton-btn" />
+          </div>
+        ))}
       </div>
     );
   }
+
 
   if (products.length === 0) {
     return (

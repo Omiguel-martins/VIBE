@@ -211,6 +211,60 @@
   border-radius: 4px;
 }
 
+/* ── Skeleton Loader ─────────────────────────────────────────── */
+@keyframes shimmer {
+  0%   { background-position: -600px 0; }
+  100% { background-position: 600px 0; }
+}
+
+.skeleton {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 600px 100%;
+  animation: shimmer 1.4s infinite linear;
+  border-radius: 8px;
+}
+
+.skeleton-card {
+  pointer-events: none;
+}
+
+.skeleton-image {
+  height: 280px;
+  width: 100%;
+  border-radius: var(--radius-sm);
+  margin-bottom: 24px;
+}
+
+.skeleton-body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+  margin-bottom: 16px;
+}
+
+.skeleton-tag {
+  height: 14px;
+  width: 60px;
+}
+
+.skeleton-title {
+  height: 22px;
+  width: 80%;
+}
+
+.skeleton-price {
+  height: 20px;
+  width: 50%;
+}
+
+.skeleton-btn {
+  height: 44px;
+  width: 100%;
+  border-radius: var(--radius-sm);
+  margin-top: auto;
+}
+
 /* Product Grid */
 .product-grid {
   display: grid;

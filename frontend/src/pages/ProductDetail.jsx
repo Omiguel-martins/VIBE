@@ -1,4 +1,6 @@
 import { useState, useEffect } from 'react';
+import { usePageTitle } from '../hooks/usePageTitle';
+import { useOgTags } from '../hooks/useOgTags';
 import { useParams, Link } from 'react-router-dom';
 import { supabase } from '../supabaseClient';
 import { useCart } from '../context/CartContext';
@@ -43,6 +45,17 @@ export default function ProductDetail() {
   const [submitting, setSubmitting] = useState(false);
   const [submitMsg, setSubmitMsg] = useState('');
   const [userReview, setUserReview] = useState(null);
+
+  // Atualiza o <title> dinamicamente assim que o produto for carregado
+  usePageTitle(product?.name ?? '');
+  useOgTags({
+    title: product?.name ?? '',
+    description: product?.description
+      ? product.description.slice(0, 160)
+      : 'Descubra esta fragrância exclusiva da Linha VIBE. Compre online com entrega para todo o Brasil.',
+    image: product?.image_url ?? undefined,
+    url: window.location.href,
+  });
 
   useEffect(() => {
     async function fetchProduct() {

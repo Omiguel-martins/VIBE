@@ -1,4 +1,6 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
+import { usePageTitle } from '../hooks/usePageTitle';
+import { useOgTags } from '../hooks/useOgTags';
 import { useNavigate } from 'react-router-dom';
 import { supabase } from '../supabaseClient';
 import { useCart } from '../context/CartContext';
@@ -15,6 +17,12 @@ function Home() {
   const { addToCart, cartCount, setIsCartOpen } = useCart();
   const { user, isAdmin, signOut } = useAuth();
   const navigate = useNavigate();
+
+  usePageTitle('Fragrâncias & Body Splash');
+  useOgTags({
+    title: 'Fragrâncias & Body Splash',
+    description: 'Descubra a Linha VIBE: Body Splashes e Perfumes criados para exaltar a sua personalidade todos os dias. Compre online com entrega para todo o Brasil.',
+  });
 
   // Catálogo
   const [products, setProducts] = useState([]);
