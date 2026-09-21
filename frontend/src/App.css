@@ -1546,3 +1546,145 @@
   from { opacity: 0; transform: translateY(20px); }
   to { opacity: 1; transform: translateY(0); }
 }
+
+
+/* Product Card Add To Cart Button */
+.btn-add-to-cart {
+  width: 100%;
+  margin-top: 15px;
+  background-color: var(--text-primary);
+  color: #fff;
+  border: 1px solid var(--text-primary);
+  padding: 12px 24px;
+  border-radius: var(--radius-sm, 8px);
+  font-weight: 500;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.btn-add-to-cart:hover {
+  background-color: #333;
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md, 0 4px 6px -1px rgba(0, 0, 0, 0.1));
+}
+
+.btn-add-to-cart:disabled {
+  background-color: #ccc;
+  border-color: #ccc;
+  color: #666;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+/* ═══════════════════════════════════════════════════════
+   Modal de Confirmação de E-mail
+═══════════════════════════════════════════════════════ */
+
+.email-confirm-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(10, 10, 10, 0.55);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  animation: ec-fade-in 0.22s ease forwards;
+}
+
+.email-confirm-modal {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 48px 40px 40px;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 32px 64px rgba(0, 0, 0, 0.18);
+  animation: ec-slide-up 0.28s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+.email-confirm-icon-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.email-confirm-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #111111;
+  margin-bottom: 16px;
+  letter-spacing: -0.3px;
+}
+
+.email-confirm-body {
+  font-size: 0.95rem;
+  color: #555555;
+  line-height: 1.6;
+}
+
+.email-confirm-address {
+  font-weight: 600;
+  color: #111111;
+  word-break: break-all;
+}
+
+.email-confirm-hint {
+  font-size: 0.8rem;
+  color: #999999;
+  margin-top: 20px;
+  margin-bottom: 28px;
+}
+
+.email-confirm-btn {
+  width: 100%;
+  background-color: #111111;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  padding: 14px 24px;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.15s ease;
+  letter-spacing: 0.2px;
+}
+
+.email-confirm-btn:hover {
+  background-color: #2a2a2a;
+  transform: translateY(-1px);
+}
+
+.email-confirm-btn:active {
+  transform: translateY(0);
+}
+
+@keyframes ec-fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes ec-slide-up {
+  from { opacity: 0; transform: translateY(20px) scale(0.97); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@media (max-width: 480px) {
+  .email-confirm-modal {
+    padding: 36px 24px 32px;
+    border-radius: 16px;
+  }
+  .email-confirm-title {
+    font-size: 1.4rem;
+  }
+}
