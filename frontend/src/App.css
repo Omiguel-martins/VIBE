@@ -1695,15 +1695,15 @@
   align-items: center;
   gap: 6px;
   margin-top: 20px;
-  font-size: 0.78rem;
-  color: #888888;
+  font-size: 0.86rem;
+  color: #ffffff;
 }
 
 .footer-dev-link {
   display: inline-flex;
   align-items: center;
   gap: 4px;
-  color: #cccccc;
+  color: #ffffff;
   text-decoration: none;
   font-weight: 500;
   transition: color 0.2s ease;
