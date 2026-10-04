@@ -2,10 +2,10 @@ import { useState, useEffect, useRef, useCallback } from 'react';
 
 /**
  * HeroCarousel
- * Componente isolado do carrossel da Hero.
+ * Cada slide é uma imagem clicável — sem textos sobrepostos.
  * Props:
  *   - slides: array de objetos da tabela hero_slides
- *   - onCtaAction: função chamada com (cta_action: string) ao clicar no botão
+ *   - onCtaAction: função chamada com (cta_action: string) ao clicar no slide
  */
 export default function HeroCarousel({ slides, onCtaAction }) {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -48,42 +48,26 @@ export default function HeroCarousel({ slides, onCtaAction }) {
           <div
             key={slide.id}
             className="hero-slide"
-            style={{
-              background: slide.bg_image_url
-                ? `linear-gradient(135deg, rgba(13,13,13,0.72) 0%, rgba(26,18,0,0.65) 100%), url(${slide.bg_image_url}) center/cover no-repeat`
-                : slide.bg_color,
-            }}
+            onClick={() => onCtaAction?.(slide.cta_action)}
+            title={slide.cta_action ? 'Clique para ver mais' : undefined}
           >
-            <div className={`hero-slide-content ${slide.text_dark ? 'dark-text' : 'light-text'}`}>
-              <span
-                className="hero-slide-label"
-                style={{ color: slide.accent_color, borderColor: slide.accent_color }}
-              >
-                {slide.label}
-              </span>
-              <h1 className="hero-slide-title" style={{ '--slide-accent': slide.accent_color }}>
-                {slide.title.split('\n').map((line, i, arr) => (
-                  <span
-                    key={i}
-                    className={i === arr.length - 1 ? 'hero-title-accent' : ''}
-                    style={{ '--slide-accent': slide.accent_color }}
-                  >
-                    {line}{i < arr.length - 1 && <br />}
-                  </span>
-                ))}
-              </h1>
-              <p className="hero-slide-subtitle">{slide.subtitle}</p>
-              <button
-                className="hero-slide-cta"
+            {slide.bg_image_url ? (
+              <img
+                src={slide.bg_image_url}
+                alt={slide.label || 'Banner VIBE'}
+                className="hero-slide-img"
+                draggable={false}
+              />
+            ) : (
+              /* Fallback: fundo colorido caso não haja imagem */
+              <div
+                className="hero-slide-img"
                 style={{
-                  '--slide-accent': slide.accent_color,
-                  '--slide-accent-dark': slide.text_dark ? '#111' : '#fff',
+                  background: slide.bg_color || '#111',
+                  minHeight: '320px',
                 }}
-                onClick={() => onCtaAction?.(slide.cta_action)}
-              >
-                {slide.cta_text}
-              </button>
-            </div>
+              />
+            )}
           </div>
         ))}
       </div>
@@ -92,23 +76,15 @@ export default function HeroCarousel({ slides, onCtaAction }) {
         <>
           <button
             className="hero-arrow hero-arrow-prev"
-            onClick={() => goToSlide((currentSlide - 1 + slides.length) % slides.length)}
+            onClick={(e) => { e.stopPropagation(); goToSlide((currentSlide - 1 + slides.length) % slides.length); }}
             aria-label="Slide anterior"
-            style={activeSlide?.text_dark ? {
-              background: 'rgba(0,0,0,0.12)', color: '#111', border: '1px solid rgba(0,0,0,0.18)',
-            } : {
-              background: 'rgba(255,255,255,0.12)', color: '#fff', border: '1px solid rgba(255,255,255,0.2)',
-            }}
+            style={{ background: 'rgba(0,0,0,0.35)', color: '#fff', border: '1px solid rgba(255,255,255,0.2)' }}
           >‹</button>
           <button
             className="hero-arrow hero-arrow-next"
-            onClick={() => goToSlide((currentSlide + 1) % slides.length)}
+            onClick={(e) => { e.stopPropagation(); goToSlide((currentSlide + 1) % slides.length); }}
             aria-label="Próximo slide"
-            style={activeSlide?.text_dark ? {
-              background: 'rgba(0,0,0,0.12)', color: '#111', border: '1px solid rgba(0,0,0,0.18)',
-            } : {
-              background: 'rgba(255,255,255,0.12)', color: '#fff', border: '1px solid rgba(255,255,255,0.2)',
-            }}
+            style={{ background: 'rgba(0,0,0,0.35)', color: '#fff', border: '1px solid rgba(255,255,255,0.2)' }}
           >›</button>
         </>
       )}
@@ -119,7 +95,7 @@ export default function HeroCarousel({ slides, onCtaAction }) {
             <button
               key={idx}
               className={`hero-dot ${idx === currentSlide ? 'active' : ''}`}
-              onClick={() => goToSlide(idx)}
+              onClick={(e) => { e.stopPropagation(); goToSlide(idx); }}
               aria-label={`Ir para slide ${idx + 1}`}
             />
           ))}

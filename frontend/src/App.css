@@ -60,12 +60,16 @@
   font-weight: 700;
 }
 
-/* Hero Carousel */
+/* ══ Hero Carousel (Estilo Natura) ════════════════════════════════
+   Oculta a rolagem horizontal, ocupa 100% da tela, tem altura máxima.
+   A imagem usa object-fit: cover para preencher.
+═══════════════════════════════════════════════════════════════════ */
 .hero-carousel {
   position: relative;
-  height: 65vh;
-  min-height: 480px;
+  width: 100%;
+  height: clamp(350px, 50vw, 550px); /* Altura dinâmica: min 350px, max 550px, ideal 50% da largura */
   overflow: hidden;
+  background-color: #f7f3e8; 
 }
 
 .hero-track {
@@ -77,84 +81,22 @@
 .hero-slide {
   min-width: 100%;
   height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0 48px;
-}
-
-.hero-slide-content {
-  max-width: 700px;
-  text-align: left;
-}
-
-.hero-slide-content.light-text h1,
-.hero-slide-content.light-text p,
-.hero-slide-content.light-text {
-  color: #f5f0e8;
-}
-
-.hero-slide-content.dark-text h1,
-.hero-slide-content.dark-text {
-  color: #111;
-}
-
-.hero-slide-label {
-  display: inline-block;
-  font-size: 0.72rem;
-  font-weight: 700;
-  letter-spacing: 0.2em;
-  border: 1px solid;
-  border-radius: 2px;
-  padding: 4px 10px;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-}
-
-.hero-slide-title {
-  font-size: clamp(3rem, 7vw, 5.5rem);
-  font-weight: 700;
-  line-height: 1.05;
-  margin-bottom: 20px;
   display: block;
-}
-
-.hero-title-accent {
-  color: var(--slide-accent, #c9a25b);
-}
-
-.hero-slide-subtitle {
-  font-size: 1.05rem;
-  line-height: 1.65;
-  max-width: 520px;
-  margin-bottom: 36px;
-  opacity: 0.85;
-}
-
-.hero-slide-content.light-text .hero-slide-subtitle {
-  color: #d4c9b0;
-}
-
-.hero-slide-content.dark-text .hero-slide-subtitle {
-  color: #555;
-}
-
-.hero-slide-cta {
-  background-color: var(--slide-accent, #c9a25b);
-  color: #111;
-  padding: 14px 32px;
-  border-radius: 4px;
-  font-weight: 700;
-  font-size: 0.95rem;
-  letter-spacing: 0.04em;
+  position: relative;
   cursor: pointer;
-  border: none;
-  transition: opacity 0.2s ease, transform 0.2s ease;
 }
 
-.hero-slide-cta:hover {
-  opacity: 0.88;
-  transform: translateY(-2px);
+.hero-slide-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  transition: transform 0.4s ease;
+}
+
+.hero-slide:hover .hero-slide-img {
+  transform: scale(1.015);
 }
 
 /* Arrows */

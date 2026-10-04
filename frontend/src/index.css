@@ -18,6 +18,10 @@
   --radius-lg: 24px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -30,6 +34,7 @@ body {
   color: var(--text-primary);
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch; /* momentum scroll suave no iOS */
 }
 
 a {
