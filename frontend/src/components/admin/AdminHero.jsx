@@ -52,6 +52,7 @@ export default function AdminHero() {
       cta_text: '',
       cta_action: '',
       bg_image_url: '',
+      bg_image_mobile_url: '',
       bg_color: '#000000',
       text_dark: false,
       accent_color: '#c9a25b',
@@ -60,7 +61,7 @@ export default function AdminHero() {
   };
 
   // ─── Upload de imagem para o Supabase Storage ────────────────────────────────
-  const handleImageUpload = async (e) => {
+  const handleImageUpload = async (e, isMobile = false) => {
     const file = e.target.files?.[0];
     if (!file) return;
 
@@ -73,7 +74,7 @@ export default function AdminHero() {
     setUploading(true);
 
     const ext = file.name.split('.').pop();
-    const fileName = `banner-${Date.now()}.${ext}`;
+    const fileName = `banner-${isMobile ? 'mobile-' : ''}${Date.now()}.${ext}`;
     const filePath = `hero/${fileName}`;
 
     const { error: uploadError } = await supabase.storage
@@ -91,7 +92,11 @@ export default function AdminHero() {
       .from('product-images')
       .getPublicUrl(filePath);
 
-    setEditingSlide((prev) => ({ ...prev, bg_image_url: urlData.publicUrl }));
+    if (isMobile) {
+      setEditingSlide((prev) => ({ ...prev, bg_image_mobile_url: urlData.publicUrl }));
+    } else {
+      setEditingSlide((prev) => ({ ...prev, bg_image_url: urlData.publicUrl }));
+    }
     setUploading(false);
   };
 
@@ -242,7 +247,58 @@ export default function AdminHero() {
                 />
               </div>
             </div>
+            {/* Upload da Imagem Mobile */}
+            <div className="form-group" style={{ display: 'grid', gap: '10px' }}>
+              <label style={{ fontWeight: '600' }}>
+                📱 Imagem Mobile (Opcional)
+              </label>
+              <p style={{ margin: 0, fontSize: '0.85rem', color: '#666' }}>
+                Para evitar que a imagem de computador fique cortada no celular, envie uma versão no formato vertical (ex: <strong>1080×1350px</strong>). Se não enviar, será usada a mesma imagem acima.
+              </p>
 
+              {editingSlide.bg_image_mobile_url && (
+                <div style={{ position: 'relative', borderRadius: '8px', overflow: 'hidden', border: '2px solid #e2e8f0', width: 'fit-content' }}>
+                  <img
+                    src={editingSlide.bg_image_mobile_url}
+                    alt="Preview mobile"
+                    style={{ height: '280px', objectFit: 'contain', display: 'block', background: '#f0f0f0' }}
+                  />
+                </div>
+              )}
+
+              <label
+                htmlFor="banner-upload-mobile"
+                style={{
+                  display: 'inline-flex', alignItems: 'center', gap: '8px',
+                  padding: '10px 20px', borderRadius: '6px',
+                  background: uploading ? '#e2e8f0' : '#111', color: '#fff',
+                  cursor: uploading ? 'not-allowed' : 'pointer',
+                  fontWeight: '600', fontSize: '0.9rem', width: 'fit-content',
+                  transition: 'background 0.2s',
+                }}
+              >
+                {uploading ? '⏳ Enviando...' : '📁 Selecionar Imagem Mobile'}
+              </label>
+              <input
+                id="banner-upload-mobile"
+                type="file"
+                accept="image/jpeg,image/png,image/webp,image/gif"
+                onChange={(e) => handleImageUpload(e, true)}
+                disabled={uploading}
+                style={{ display: 'none' }}
+              />
+
+              <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginTop: '4px' }}>
+                <span style={{ color: '#999', fontSize: '0.82rem' }}>ou cole uma URL:</span>
+                <input
+                  type="text"
+                  placeholder="https://..."
+                  value={editingSlide.bg_image_mobile_url || ''}
+                  onChange={(e) => setEditingSlide({ ...editingSlide, bg_image_mobile_url: e.target.value })}
+                  style={{ flex: 1, padding: '7px 10px', border: '1px solid #ccc', borderRadius: '4px', fontSize: '0.85rem' }}
+                />
+              </div>
+            </div>
             {/* Link de Destino */}
             <div className="form-group" style={{ display: 'grid', gap: '6px' }}>
               <label style={{ fontWeight: '600' }}>🔗 Link / Ação ao clicar no banner</label>

@@ -52,12 +52,17 @@ export default function HeroCarousel({ slides, onCtaAction }) {
             title={slide.cta_action ? 'Clique para ver mais' : undefined}
           >
             {slide.bg_image_url ? (
-              <img
-                src={slide.bg_image_url}
-                alt={slide.label || 'Banner VIBE'}
-                className="hero-slide-img"
-                draggable={false}
-              />
+              <picture style={{ display: 'block', width: '100%', height: '100%' }}>
+                {slide.bg_image_mobile_url && (
+                  <source media="(max-width: 768px)" srcSet={slide.bg_image_mobile_url} />
+                )}
+                <img
+                  src={slide.bg_image_url}
+                  alt={slide.label || 'Banner VIBE'}
+                  className="hero-slide-img"
+                  draggable={false}
+                />
+              </picture>
             ) : (
               /* Fallback: fundo colorido caso não haja imagem */
               <div
